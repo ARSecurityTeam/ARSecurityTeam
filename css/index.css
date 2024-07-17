@@ -1,0 +1,120 @@
+body {
+    background: #212121;
+    color: #fff;
+}
+
+.hads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 5px; 
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #bbb;
+}
+.social-icon {
+    width: 30%;
+    height: 200px;
+    border-top-left-radius: 19px;
+    border-bottom-right-radius: 10px;
+    border: solid 1px #bbb;
+    margin-top: 7%;
+    margin-left: 35%;
+    box-shadow: 0 0 8px #fff;
+    box-sizing: border-box;
+}
+.social-icon p {
+    text-align: center;
+    color: #bbb;
+    font-weight: bold;
+    text-shadow: 0 0 6px #000;
+}
+.fb {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 55px;
+}
+.insta {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+.git {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 245px;
+}
+.yt {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 340px;
+}
+.fb img {
+    border-radius: 50%;
+}
+.insta img {
+    border-radius: 20%;
+}
+.git img {
+    border-radius: 50%;
+}
+.yt img {
+    border-radius: 50%;
+}
+.fb img:hover {
+    box-shadow: 0 0 10px #423fec;
+    transition: 0.2s linear;
+}
+.insta img:hover {
+    box-shadow: 0 0 10px #ff0bff;
+    transition: 0.2s linear;
+}
+.git img:hover {
+    box-shadow: 0 0 10px #fff;
+    transition: 0.2s linear;
+}
+.yt img:hover {
+    box-shadow: 0 0 10px #ff0000;
+    transition: 0.2s linear;
+}
+.auto-writing {
+    text-align: center;
+    margin-top: 2%;
+}
+.auto-writing span {
+    color: #fff;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+footer span {
+    color: #404040;
+}
+ /* phone screen */
+@media (max-width:700px) {
+    .social-icon {
+        width: 80%;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+    .auto-writing {
+        margin-top: 5%;
+    }
+    .fb {
+        margin-left: 5%;
+    }
+    .insta {
+        margin-left: 23%;
+    }
+    .git {
+        margin-left: 41%;
+    }
+    .yt {
+        margin-left: 59%;
+    }
+}
