@@ -19,9 +19,9 @@ hr {
     width: 30%;
     height: 200px;
     border-top-left-radius: 19px;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 19px;
     border: solid 1px #bbb;
-    margin-top: 7%;
+    margin-top: 8%;
     margin-left: 35%;
     box-shadow: 0 0 8px #fff;
     box-sizing: border-box;
@@ -82,7 +82,7 @@ hr {
 }
 .auto-writing {
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .auto-writing span {
     color: #fff;
@@ -95,6 +95,43 @@ footer {
 footer span {
     color: #404040;
 }
+.menu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: solid 1px #bbb;
+    box-shadow: 0 0 10px #fff;
+}
+nav {
+    background: #212121;
+    overflow: hidden;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li {
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-shadow: 0 0 10px #fff;
+    color: #fff;
+    text-decoration: underline 2px #fff;
+}
+hr {
+    box-shadow: 0 0 5px #fff;
+    border-top: none;
+}
  /* phone screen */
 @media (max-width:700px) {
     .social-icon {
@@ -103,7 +140,7 @@ footer span {
         margin-left: 10%;
     }
     .auto-writing {
-        margin-top: 5%;
+        margin-top: 15%;
     }
     .fb {
         margin-left: 5%;
