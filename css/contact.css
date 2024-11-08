@@ -1,69 +1,57 @@
-.cntbx {
-    border: solid 1px #bbb;
-    /* border-top: solid 1px red;
-    border-left: solid 1px rgb(0, 255, 0);
-    border-right: solid 1px blue;
-    border-bottom: solid 1px rgb(212, 255, 0); */
-    width: 30%;
-    border-top-left-radius: 19px;
-    border-bottom-right-radius: 19px;
-    box-shadow: 0 0 10px #fff;
-    margin-top: 7%;
-    margin-left: 35%;
-    text-align: center;
-}
-.cntbx input, button {
-    margin-top: 5%;
+body {
+    background-color: #1e1e1e;
+    color: #eeeeee;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
 }
 
-input[type="text"], input[type="email"] {
-    width: 85%;
-    height: 25px;
-    background: none;
-    outline: none;
-    border: none;
-    border: solid 1px #bbb;
-    border-radius: 5px;
-    color: #fff;
+.hads {
+    text-align: center;
 }
-input[type="message"]:focus, input[type="text"]:focus, input[type="email"]:focus {
-    border: solid 1px #fff;
-    box-shadow: 0 0 5px #fff;
-    transition: 0.3s;
+
+.terminal {
+    background-color: #2b2b2b;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin: 90px auto;
 }
-input[type="message"] {
-    width: 85%;
-    height: 60px;
-    background: none;
-    outline: none;
-    border: none;
-    border: solid 1px #bbb;
-    border-radius: 5px;
-    color: #fff;
+
+.command-line {
+    color: #00ff00; /* Green text color for commands */
 }
-button {
-    margin-right: 25%;
-    width: 60%;
-    height: 30px;
-    background: none;
-    border-radius: 5px;
-    color: #fff;
-    border: solid 1px #bbb;
-    font-weight: bold;
+
+.auto-writing { 
+    display: flex;
+    height: 20px;
 }
-button:hover {
-    background: #000;
-    box-shadow: 0 0 10px #fff;
-    transition: 0.3s;
+#text {
+    color: #00b0ff; /* Light blue color for output */
+    margin-right: 100%;
+    white-space: pre;
+    margin-top: -5%;
 }
-@media (max-width:700px) {
-    .cntbx {
-        width: 80%;
-        margin-top: 30%;
-        margin-left: 10%;
-        text-align: center;
-    }
-    .cntbx input, button {
-        margin-top: 8%;
-    }
+.prompt {
+    color: #ff5555; /* Red color for the prompt */
+}
+
+.menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
 }
